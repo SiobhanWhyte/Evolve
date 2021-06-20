@@ -288,7 +288,8 @@ header nav ul li a {
 
 /* start: schedule services styles */
 #schedule-services {
-  text-align: left;
+  text-align: center;
+  padding-top: 10rem;
 }
 
 #schedule-services .flex > div {
@@ -299,78 +300,94 @@ header nav ul li a {
 #schedule-services .flex strong {
   display: block;
   color: #212122;
-  font-size: 0.85rem;
+  font-size: 1rem;
   opacity: 0.6;
   letter-spacing: 4px;
 }
 
-.upcoming-classes-box {
-  border: 2px solid #E5E7F3;
+.kids-box {
+  border: 3px solid #E5017D;
   padding: 4rem 2.5rem 2.5rem;
 }
 
-.upcoming-classes-box h4 {
+.kids-box img{
+  width:150px;
+  height:auto;
+}
+
+.kids-box h4 {
   margin-bottom: 2rem;
 }
 
-.upcoming-classes-box table {
+.kids-box table {
   width: 100%;
 }
 
-.upcoming-classes-box table tr td {
+.kids-box table tr td {
   padding: 13px 10px 13px 0;
-  color: #7b7b7b;
+  color: black;
   font-size: 0.85rem;
 }
 
-.upcoming-classes-box table tr td:last-child {
+.kids-box table tr td:last-child {
   text-align: right;
   padding-right: 0;
 }
 
-.membership-cards-box {
-  background: #233EDE;
+.teenage-box {
+  background: #24853A;
   padding: 1.5rem;
 }
 
-.membership-cards-box .inner-container {
-  background: url('https://onclickwebdesign.com/wp-content/uploads/woman-exercise.jpg') top center no-repeat;
+.teenage-box img{
+  width:150px;
+  height:auto;
+  border-radius: 2rem;
+}
+
+.teenage-box .inner-container {
+  
   height: 395px;
   padding: 2.5rem 1.5rem 1.5rem;
 }
 
-.membership-cards-box h2 {
+.teenage-box h2 {
   font-size: 4.5rem;
   font-weight: 700;
-  color: #136b37;
+  color: white;
   line-height: 1;
 }
 
-.membership-cards-box h2 span {
+.teenage-box h2 span {
   font-size: 1rem;
   letter-spacing: 0;
 }
 
-.personal-trainer-box {
-  background: url('https://onclickwebdesign.com/wp-content/uploads/personal-trainer.jpg') top center no-repeat;
+.adult-box {
+  background-color:rgb(21, 10, 70);
   padding: 4rem 3rem 3rem;
 }
 
-.personal-trainer-box h4 {
+.adult-box img{
+  width:150px;
+  height:auto;
+}
+
+.adult-box h4 {
   margin-bottom: 2rem;
   color: #fff;
 }
 
-.personal-trainer-box p {
+.adult-box p {
   color: #fff;
   margin-bottom: 1.5rem;
 }
 
-.personal-trainer-box button {
-  width: 100%;
+.adult-box button {
+  width: 70%;
 }
 
-#schedule-services .personal-trainer-box strong {
+#schedule-services .adult-box strong {
   color: #fff;
 }
 /* end: schedule services styles */
@@ -557,29 +574,29 @@ footer small a {
     margin: 0 1rem;
   }
 
-  .upcoming-classes-box {
+  .kids-box {
     padding: 2rem 1.5rem 0.5rem;
   }
 
-  .upcoming-classes-box h4 {
+  .kids-box h4 {
     margin-bottom: 1rem;
   }
 
-  .membership-cards-box .inner-container {
+  .teenage-box .inner-container {
     padding: 0.5rem 1.5rem 1.5rem;
     height: 100%;
     box-sizing: border-box;
   }
 
-  .membership-cards-box h2 {
+  .teenage-box h2 {
     font-size: 3.5rem;
   }
 
-  .personal-trainer-box {
+  .adult-box {
     padding: 2rem 1.5rem 1.5rem;
   }
 
-  .personal-trainer-box p {
+  .adult-box p {
     font-size: 0.85rem;
   }
 
@@ -667,22 +684,22 @@ footer small a {
       flex-wrap: wrap;
     }
 
-    #schedule-services .flex > div.upcoming-classes-box,
-    #schedule-services .flex > div.membership-cards-box {
+    #schedule-services .flex > div.kids-box,
+    #schedule-services .flex > div.teenage-box {
       width: 48%;
     }
 
-    #schedule-services .flex > div.personal-trainer-box {
+    #schedule-services .flex > div.adult-box {
       width: 100%;
       margin-top: 3rem;
       background-size: cover;
     }
 
-    .personal-trainer-box p {
+    .adult-box p {
       font-size: 0.95rem;
     }
 
-    .membership-cards-box .inner-container {
+    .teenage-box .inner-container {
       background-size: cover;
     }
   }
@@ -701,7 +718,7 @@ footer small a {
       margin-top: 0;
     }
 
-    .membership-cards-box .inner-container {
+    .teenage-box .inner-container {
       min-height: 500px;
     }
 
@@ -720,7 +737,7 @@ footer small a {
   }
 
   @media (max-width: 500px) {
-    .membership-cards-box .inner-container {
+    .teenage-box .inner-container {
       min-height: 400px;
     }
 
