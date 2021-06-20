@@ -32,6 +32,7 @@ h1, h3, h4, h5 {
 
 h2 {
   font-size: 8rem;
+  margin-top: 7rem;
 }
 
 h3 {
@@ -56,12 +57,13 @@ ul {
 
 button {
   cursor: pointer;
-  background: #095f1b;
+  background:#047A3F;
   color: #fff;
   font-size: 0.9rem;
   text-align: center;
   padding: 1.25rem 3rem;
   border: none;
+  border-radius: 1rem;
   text-transform: uppercase;
   font-weight: 500;
   font-family: 'Roboto', 'Helvetica', 'Sans-serif';
@@ -104,17 +106,14 @@ section, footer {
 /* end: global styles */
 
 /* start: hero section styles */
-#hero {
-  position: relative;
-  padding: 0;
-}
+
 
 header {
   position: absolute;
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: #231F20;
   color: #fff;
   padding: 1rem 0;
   z-index: 1;
@@ -138,7 +137,7 @@ header nav ul li a {
   font-weight: 500;
 }
 
-.top-gym-logo {
+.gym-logo {
   margin: 0 2rem;
   padding: 15px 10px 7px;
   text-align: center;
@@ -146,13 +145,12 @@ header nav ul li a {
 }
 
 
-.top-gym-logo img {
+.gym-logo img {
     width: 150px;
     height: auto;
-    position: fixed;
 }
 
-.top-gym-logo a:hover {
+.gym-logo a:hover {
   text-decoration: none;
 }
 
@@ -175,9 +173,8 @@ header nav ul li a {
 
 #hamburger-menu {
   background-color: transparent;
-  border: 1px solid #fff;
   padding: 3px 5px;
-  width: 30px;
+  width: 35px;
   cursor: pointer;
   margin: 0 1rem;
   display: none;
@@ -185,53 +182,12 @@ header nav ul li a {
 
 #hamburger-menu .strip {
   display: block;
-  height: 1px;
+  height: 2px;
   background-color: #fff;
-  margin: 4px 0;
+  margin: 6px 0;
 }
 
-#hero-slider .hero-slide-item {
-  position: relative;
-  height: 895px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-}
 
-#hero-slider .hero-slide-item .youtube-button {
-  background: #233EDE;
-  padding: 1.2rem 1.45rem;
-  border-radius: 30px;
-  color: #fff;
-  font-size: 16px;
-}
-
-#hero-slider .hero-slider-marketing {
-  position: absolute;
-  z-index: 2;
-  text-align: center;
-  color: #fff;
-  top: 50%;
-  left: 0;
-  right: 0;
-  margin: -100px auto 0;
-}
-
-#hero-slider .slick-dots {
-  bottom: 35px;
-}
-
-#hero-slider .slick-dots li button:before {
-  color: #fff;
-  opacity: 1;
-  padding: 2px 2px 2px 3px;
-  border: 3px solid transparent;
-  border-radius: 20px;
-}
-
-#hero-slider .slick-dots li.slick-active button:before {
-  border-color: #fff;
-}
 /* end: hero section styles */
 
 /* start: features section styles */
@@ -421,8 +377,7 @@ header nav ul li a {
 
 /* start: footer section styles */
 footer {
-  background: url('https://onclickwebdesign.com/wp-content/uploads/footer-bg.jpg') top center no-repeat;
-  background-size: cover;
+  background-color: #212122;
   padding-bottom: 2rem;
 }
 
@@ -432,7 +387,7 @@ footer {
 }
 
 #footer-logo {
-  display: inline-block;
+  display: relative;
 }
 
 footer nav {
@@ -480,7 +435,7 @@ footer ul.social-icons {
 }
 
 footer ul.social-icons li a {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 footer img.bicep {
@@ -598,7 +553,7 @@ footer small a {
     max-width: 775px;
   }
 
-  .top-gym-logo {
+  .gym-logo {
     margin: 0 1rem;
   }
 
@@ -637,7 +592,6 @@ footer small a {
   @media (max-width: 767px) {
     h2 {
       font-size: 4rem;
-      margin-top: 2rem;
     }
 
     .flex {
@@ -655,7 +609,7 @@ footer small a {
     }
 
     header {
-      background: rgba(0, 0, 0, 0.85);
+      background: #231F20;
     }
 
     header .container {
@@ -673,7 +627,7 @@ footer small a {
       position: absolute;
       top: 100%;
       width: 100%;
-      background: rgba(0, 0, 0, 0.85);
+      background: #231F20;
       display: none;
     }
 
@@ -693,17 +647,14 @@ footer small a {
       font-size: 1.5rem;
     }
 
-    #search {
-      position: static;
-      font-size: 1.5rem;
-    }
+    
 
     #hamburger-menu {
       display: block;
     }
 
     #header-logo {
-      display: none;
+      display: relative;
     }
 
     #features .box .feature-info-container {
