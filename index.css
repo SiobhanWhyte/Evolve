@@ -654,7 +654,7 @@ footer small a {
     }
 
     #header-logo {
-      display: relative;
+      display: none;
     }
 
     #features .box .feature-info-container {
