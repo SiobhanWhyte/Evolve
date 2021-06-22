@@ -8,6 +8,11 @@
 *:not(.slick-track), *:not(.slick-list) {
   transition: 0.4s;
 }
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
 
 body {
   font-family: 'Roboto', 'Helvetica', 'Sans-serif';
@@ -86,12 +91,20 @@ p {
 }
 
 section, footer {
-  padding: 6rem 0;
   text-align: center;
 }
 
+section {
+padding: 8rem 2rem 4rem 2rem;
+}
+
+footer {
+  padding: 5rem 0 0 0;
+  
+}
+
 .container {
-  max-width: 1144px;
+  max-width: 1100px;
   margin: 0 auto;
   position: relative;
 }
@@ -159,18 +172,7 @@ header nav ul li a {
   display: none;
 }
 
-#search {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  margin-top: -7px;
-  width: auto;
-  padding: 0;
-  font-size: 15px;
-  border: none;
-  background: transparent;
-  color: #fff;
-}
+
 
 #hamburger-menu {
   background-color: transparent;
@@ -188,7 +190,9 @@ header nav ul li a {
   margin: 6px 0;
 }
 
-
+.hero-main {
+  padding: 5rem 5rem;
+}
 /* end: hero section styles */
 
 /* start: features section styles */
@@ -253,8 +257,8 @@ margin: 3rem 0;
 
 /* start: trainers section styles */
 #trainers {
-  background: url('https://images.unsplash.com/photo-1601370690183-1c7796ecec61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80') top center no-repeat;
-  background-size: cover;
+  background-color: #15482D;
+  padding-bottom: 5rem;
 }
 
 #trainers-slider {
@@ -277,7 +281,8 @@ margin: 3rem 0;
 
 #trainers-slider p {
   color: #fff;
-  opacity: 0.6;
+  min-width: 500px;
+  text-align: left;
 }
 
 #trainers-slider .slick-prev {
@@ -499,7 +504,7 @@ footer small a {
   }
 
   .teenage-box .inner-container {
-    padding: 0.5rem 1.5rem 1.5rem;
+    padding: 0.05rem 1.5rem 1.5rem;
     height: 100%;
     box-sizing: border-box;
   }
@@ -533,7 +538,7 @@ footer small a {
 
     .flex .box {
       margin: 0 auto;
-      width: 90%;
+      width: 100% !important;
       margin-top: 3rem;
     }
 
@@ -595,7 +600,7 @@ footer small a {
     }
 
     #schedule-services .flex {
-      width: 90%;
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
     }
@@ -614,17 +619,13 @@ footer small a {
     .adult-box p {
       font-size: 0.95rem;
     }
-
-    .teenage-box .inner-container {
-      background-size: cover;
-    }
   }
 
   @media (max-width: 600px) {
    
 
     #schedule-services .flex > div {
-      width: 100%;
+      width: 100% !important;
       margin-top: 3rem;
     }
 
@@ -651,6 +652,7 @@ footer small a {
   }
 
   @media (max-width: 500px) {
+
     .teenage-box .inner-container {
       min-height: 400px;
     }
