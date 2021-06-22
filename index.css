@@ -98,7 +98,7 @@ section, footer {
 
 .flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .box {
@@ -223,7 +223,7 @@ header nav ul li a {
 
 /* start: services section styles */
 #services {
-  background: url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80')top center no-repeat;
+  background: #232B44;
   background-size: cover;
 }
 
@@ -232,18 +232,20 @@ header nav ul li a {
 }
 
 #services h3 {
-margin: 8rem 0;
+margin: 3rem 0;
 }
 
 
 #services .box {
   width: 23.5%;
+  border: solid 3px white;
+  margin: 1rem 0 1rem 1rem;
   
 }
 
 #services .box img {
-  height: 85px;
-  margin-bottom: 2rem;
+  width: 150px;
+  height: auto;
 }
 
 #services .box h4 {
