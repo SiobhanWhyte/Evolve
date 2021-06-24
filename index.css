@@ -747,7 +747,7 @@ footer small a {
 }
 
  .text {
-  max-width: 60%;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -757,7 +757,6 @@ footer small a {
 
 .wrapper{
   display: block;
- 
   max-width: 1270px;
   background: #232B44;
 }
