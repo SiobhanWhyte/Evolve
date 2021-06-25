@@ -117,56 +117,29 @@ footer {
 .box {
   text-align: center;
 }
+
 /* end: global styles */
 
 /* start: hero section  */
 
-.bg-video-wrap {
-  position: relative;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-  min-height: 400px;
+.hero-main {
+  background-image: linear-gradient(to top, #232b44, #2c2639, #2d222e, #2a2026, #231f20);
+padding-top: 10rem;
 }
-  
-   video {
-		display: block;
-		position: absolute;
-		z-index: -1;
-		width: auto;
-		height: 100vh;
-		left: 50%;
-		top: 0;
-		transform: translate(-50%, 0);
-	}
 
-  .bg-video-wrap img{
+  .hero-main img{
     width: 700px;
     height:auto;
     justify-content: center;
     align-items: center;
-    padding-top: 5rem;
   }
 
 @media only screen and (min-width: 1040px) {
-  .splash > video {
-	width: 100%;
-	height: auto;
-  }
+  
 }
 
 
 
-.hero-main h2{
-  color: white;
-  font-size: 5rem;
-  z-index: 3;
-}
-
-.hero-main h3{
-  font-size: 1rem;
-  z-index: 3;
-}
 
 
 
@@ -671,10 +644,10 @@ footer small a {
       font-size: 0.95rem;
     }
 
-    .bg-video-wrap img{
+    .hero-main img{
       width: 95%;
       height: auto;
-      padding-top:10rem;
+      
   }
 
 
@@ -739,7 +712,7 @@ footer small a {
 }
 
 .about-evolve img {
-  width: 60%;
+  width: 80%;
   height: auto;
   padding: 0;
   border: 3px solid #232B44;
