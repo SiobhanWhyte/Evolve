@@ -123,8 +123,7 @@ footer {
 /* start: hero section  */
 
 .hero-main {
-  background-image: linear-gradient(to top, #232b44, #2c2639, #2d222e, #2a2026, #231f20);
-padding-top: 10rem;
+  background-image: linear-gradient(to top, #232b44, #2a273c, #2d2434, #2d222c, #2a2026, #282024, #261f22, #231f20, #231f20, #231f20, #231f20, #231f20);
 }
 
   .hero-main img{
