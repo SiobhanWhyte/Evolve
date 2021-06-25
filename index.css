@@ -118,15 +118,20 @@ footer {
   text-align: center;
 }
 
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
-.scroll-prompt {
-	position: absolute;
+.scroll-prompt { 
+	position: relative;
 	z-index: 998;
-	bottom: -80px;
 	left: 50%;
 	margin-left: -80px;
 	width: 160px;
-	height: 160px;}
+  height: 160px;
+}
 
 	.scroll-prompt-arrow-container {
 		position: absolute;
@@ -149,8 +154,8 @@ footer {
 	.scroll-prompt-arrow > div {
 		width: 36px;
 		height: 36px;
-		border-right: 8px solid #bebebe;
-		border-bottom: 8px solid #bebebe;
+		border-right: 8px solid #FF9E00;
+		border-bottom: 8px solid #FF9E00;
 		transform: rotate(45deg) translateZ(1px);
 	}
 
@@ -259,6 +264,32 @@ footer {
     height:auto;
     justify-content: center;
     align-items: center;
+  }
+
+  .hero-main h2,h4 {
+    color: white;
+    background: none;
+  }
+
+  .hero-main h2 {
+    font-size: .5rem;
+    margin: 0;
+  }
+
+  .hero-main h4 {
+    font-size: 1rem;
+    margin-top: 5rem;
+  }
+  .hero-main button {
+    width: 8rem;
+    height: 1.5rem;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+  }
+
+  .hero-main .newcomers {
+    padding-top: 3rem;
   }
 
 @media only screen and (min-width: 1040px) {
