@@ -157,13 +157,14 @@ footer {
     margin-bottom: 10rem;
   }
 
-  .hero-main .newcomer {
-    padding: 3rem 0;
+  .newcomer {
+    padding: 6rem 0 3rem 0;
   }
 
-  .hero-main .newcomer .social-icons a {
+   .newcomer .social-icons a {
     color: white;
     padding: 2rem 1rem;
+    
   }
 
 @media only screen and (min-width: 1040px) {
