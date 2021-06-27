@@ -167,6 +167,10 @@ footer {
     
   }
 
+  .newcomer p a {
+    color:#027F3F;
+  }
+
 @media only screen and (min-width: 1040px) {
   
 }
@@ -816,8 +820,9 @@ footer small a {
   border: 1px solid #027F3F;
 }
 
-
-
+.flexbox .box h1{
+  background-color: #027F3F;
+}
 .box p {
   text-align: left;
   padding: 10px 5px;
@@ -932,3 +937,6 @@ footer small a {
   100% {margin-top:-270px;}
 }
 
+.maps {
+  width: 100%;
+}
