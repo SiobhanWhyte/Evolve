@@ -528,6 +528,7 @@ footer ul.social-icons li a {
 footer small {
   color: #fff;
   opacity: 0.8;
+  font-size: 10px;
   font-weight: 5px;
   margin: 0 0.5rem;
 }
