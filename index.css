@@ -524,6 +524,9 @@ footer small a {
 
 /* start: media queries */
 @media (max-width: 1444px) {
+
+ 
+
   h2 {
     font-size: 6rem;
   }
@@ -573,6 +576,8 @@ footer small a {
     header nav {
       display: block !important;
     }
+
+   
    
   }
 
@@ -581,7 +586,7 @@ footer small a {
       font-size: 4rem;
     }
 
-    
+   
 
     .flex {
       display: block;
@@ -761,21 +766,21 @@ footer small a {
   background: #232B44;
 }
 
-.third.contents img {
+.profile-center img {
+  text-align: center;
   width: 50%;
   height: auto;
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
 }
+
 .box{
   border-radius: 5px;
   background: white;
   color:#027F3F;
 }
-.box h1,.box h2,.box h3{
+.box h1 {
   text-align: center;
-  font-size: 26px;
+  font-size: 20px;
   color: #FFF;
   margin: 0 10px 0 10px;
   position: relative;
@@ -799,8 +804,8 @@ footer small a {
 }
 
 .box p {
-  text-align: center;
-  padding: 10px 0;
+  text-align: left;
+  padding: 10px 5px;
   font-size: 18px;
   color: black;
   margin: 0;
@@ -819,7 +824,7 @@ footer small a {
   justify-content: center;
 }
 .flexbox .box{
-  width: 350px;
+  width: 450px;
  height: 500px;
   box-sizing: border-box;
   margin: 0 15px;
