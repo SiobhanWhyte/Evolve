@@ -285,9 +285,7 @@ header nav ul li a {
   margin-bottom: 4rem;
 }
 
-#services h3 {
-margin: 3rem 0;
-}
+
 
 
 #services .box {
@@ -302,7 +300,7 @@ margin: 3rem 0;
 }
 
 #services .box h4 {
-  color: #fff;
+  color: black;
 }
 /* end: services section styles */
 
@@ -410,10 +408,9 @@ margin: 3rem 0;
   padding: 2.5rem 1.5rem 1.5rem;
 }
 
-.teenage-box h2 {
-  font-size: 4.5rem;
-  font-weight: 700;
-  color: white;
+.teenage-box h4 {
+  font-size: 1rem;
+  color: black;
   line-height: 1;
 }
 
@@ -443,10 +440,21 @@ margin: 3rem 0;
   margin-bottom: 1.5rem;
 }
 
+.faq h2{
+background: none;
+color:#027F3F;
+font-size: 20px;
+}
 
+.faq p {
+  max-width: 35rem;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
 
 #schedule-services .adult-box strong {
-  color: #fff;
+  color: black;
 }
 /* end: schedule services styles */
 
@@ -553,6 +561,9 @@ footer small a {
     margin-bottom: 1rem;
   }
 
+  .kids-box p {
+    color: black;
+  }
   .teenage-box .inner-container {
     padding: 0.05rem 1.5rem 1.5rem;
     height: 100%;
@@ -805,9 +816,7 @@ footer small a {
   border: 1px solid #027F3F;
 }
 
-.box h1 ,h2,h3 {
-  background:#027F3F;
-}
+
 
 .box p {
   text-align: left;
