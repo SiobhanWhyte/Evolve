@@ -178,6 +178,16 @@ footer {
     padding: 6rem 0 3rem 0;
   }
 
+  .newcomer h4 {
+font-size: 2rem;
+color: #027F3F;
+  }
+
+  .newcomer h5 {
+    font-size: 1rem;
+    
+  }
+
    .newcomer .social-icons a {
     color: white;
     padding: 2rem 1rem;
@@ -188,14 +198,6 @@ footer {
   .newcomer p a {
     color:#027F3F;
   }
-
-@media only screen and (min-width: 1040px) {
-  
-}
-
-
-
-
 
 
 header {
@@ -236,7 +238,7 @@ header nav ul li a {
 
 
 .gym-logo img {
-    width: 200px;
+    width: 100px;
     height: auto;
 }
 
@@ -300,14 +302,23 @@ header nav ul li a {
 
 /* start: services section styles */
 #services {
-  background: #232B44;
+  background: #231F20;
 }
 
 #services .container {
   margin-bottom: 4rem;
 }
 
+#services h2 {
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+}
 
+#services h3 {
+  color:#027F3F;
+  margin:0;
+}
 
 
 #services .box {
@@ -465,11 +476,12 @@ header nav ul li a {
 .faq h2{
 background: none;
 color:#027F3F;
-font-size: 20px;
+font-size: 2rem;
 }
 
 .faq p {
   max-width: 35rem;
+  font-size: 1rem;
   justify-content: center;
   margin: 0 auto;
   padding: 1rem 2rem;
@@ -780,7 +792,7 @@ footer small a {
   justify-content: center;
   align-items: center;
   margin: 0 ;
-  background: #232B44;
+  background: #231F20;
   padding-top: 10rem;
 }
 
@@ -788,7 +800,7 @@ footer small a {
   width: 80%;
   height: auto;
   padding: 0;
-  border: 3px solid #232B44;
+  border: 3px solid #231F20;
   border-radius: 15px;
 }
 
@@ -804,7 +816,7 @@ footer small a {
 .wrapper{
   display: block;
   max-width: 1270px;
-  background: #232B44;
+  background: #231F20;
 }
 
 .profile-center img {
@@ -911,4 +923,9 @@ footer small a {
 
 .maps {
   width: 100%;
+}
+
+.contact-image img {
+  width: 20vw;
+  height: auto;
 }
