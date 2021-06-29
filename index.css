@@ -21,7 +21,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.7;
-  background-color:#232B44;
+  background-color: #231F20;
 }
 
 h1, h2, h3, h4, h5 {
@@ -144,7 +144,7 @@ footer {
   }
 
   .timetable img {
-   max-width: 320px;
+   width: 320px;
     height:auto;
     justify-content: center;
     align-items: center;
@@ -201,7 +201,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  background: #231F20;
+  background: #077F42;
   color: #fff;
   padding: 1rem 0;
   z-index: 1;
@@ -480,7 +480,7 @@ font-size: 20px;
 
 /* start: footer section styles */
 footer {
-  background-color: #212122;
+  background-color: #077F42;
   padding-bottom: 2rem;
 }
 
@@ -613,6 +613,15 @@ footer small a {
       display: block !important;
     }
 
+   .van img { 
+     width: 700px;
+     height:auto;
+   }
+
+   .timetable img { 
+    width: 700px;
+    height:auto;
+  }
    
    
   }
@@ -639,7 +648,7 @@ footer small a {
     }
 
     header {
-      background: #231F20;
+      background: #077F42;
     }
 
     header .container {
@@ -657,7 +666,7 @@ footer small a {
       position: absolute;
       top: 100%;
       width: 100%;
-      background: #231F20;
+      background: #077F42;
       display: none;
     }
 
@@ -718,6 +727,18 @@ footer small a {
       
   }
 
+  @media (min-width: 950px) {
+
+  .van img { 
+    width: 900px;
+    height:auto;
+  }
+
+  .timetable img { 
+   width: 900px;
+   height:auto;
+ }
+  }
 
   @media (max-width: 600px) {
    
@@ -734,6 +755,16 @@ footer small a {
     .teenage-box .inner-container {
       min-height: 500px;
     }
+
+    .van img { 
+      width: 550px;
+      height:auto;
+    }
+  
+    .timetable img { 
+     width: 550px;
+     height:auto;
+   }
 
     footer ul li a {
       font-size: 0.65rem;
