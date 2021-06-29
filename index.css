@@ -124,13 +124,14 @@ footer {
 /* start: hero section  */
 
 .hero-main {
-  background-image: linear-gradient(to top, #232b44, #2a273c, #2d2434, #2d222c, #2a2026, #282024, #261f22, #231f20, #231f20, #231f20, #231f20, #231f20);
-  
+  background-color: #231F20;
+  padding-top: 3rem;
 }
 
   .hero-main img{
     width: 700px;
     height:auto;
+    padding-top: 6rem;
     justify-content: center;
     align-items: center;
   }
@@ -211,7 +212,7 @@ header nav ul li a {
 }
 
 .gym-logo {
-  margin: 0 2rem;
+
   padding: 15px 10px 7px;
   text-align: center;
   letter-spacing: 2px;
@@ -219,7 +220,7 @@ header nav ul li a {
 
 
 .gym-logo img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
@@ -555,9 +556,7 @@ footer small a {
     max-width: 975px;
   }
 
-  .gym-logo {
-    margin: 0 1rem;
-  }
+ 
 
   .kids-box {
     padding: 2rem 1.5rem 0.5rem;
@@ -890,54 +889,6 @@ footer small a {
   background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
 }
 
-
-#container {
-  color: white;
-  text-transform: uppercase;
-  font-size:18px;
-  font-weight:bold;
-  padding-top:20px;  
-  width:100%;
-  display:block;
-}
-
-#flip {
-  height:40px;
-  overflow:hidden;
-}
-
-#flip > div > div {
-  color:#fff;
-  padding:4px 12px;
-  height:45px;
-  margin-bottom:45px;
-  display:inline-block;
-}
-
-#flip div:first-child {
-  animation: show 5s linear infinite;
-}
-
-#flip div div {
-  background:#048040;
-}
-#flip div:first-child div {
-  background:#4ec7f3;
-}
-#flip div:last-child div {
-  background:#FF9E00;
-}
-
-@keyframes show {
-  0% {margin-top:-270px;}
-  5% {margin-top:-180px;}
-  33% {margin-top:-180px;}
-  38% {margin-top:-90px;}
-  66% {margin-top:-90px;}
-  71% {margin-top:0px;}
-  99.99% {margin-top:0px;}
-  100% {margin-top:-270px;}
-}
 
 .maps {
   width: 100%;
