@@ -136,6 +136,20 @@ footer {
     align-items: center;
   }
 
+  .van img {
+    width: 320px;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timetable img {
+   max-width: 320px;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+  }
+
   .hero-main h2,h4 {
     color: white;
     background: none;
