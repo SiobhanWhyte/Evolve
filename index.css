@@ -487,6 +487,11 @@ font-size: 2rem;
   padding: 1rem 2rem;
 }
 
+.faq img {
+  width: 250px;
+  height: auto;
+}
+
 #schedule-services .adult-box strong {
   color: black;
 }
@@ -930,8 +935,14 @@ footer small a {
   height: auto;
 }
 
+.gymkids h1 {
+  color: white;
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+
 .gymkids img {
-  width: 80vw;
+  width: 60vw;
   height: auto;
   padding: 2rem 0;
 }
