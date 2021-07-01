@@ -479,6 +479,10 @@ color:#027F3F;
 font-size: 2rem;
 }
 
+.faq h3 {
+  font-size: 1rem;
+}
+
 .faq p {
   max-width: 35rem;
   font-size: 1rem;
@@ -939,6 +943,15 @@ footer small a {
   color: white;
   padding-top: 3rem;
   font-size: 2rem;
+}
+
+.gymkids h2 {
+  color: white;
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: normal;
+  margin: 0;
+  padding: 2rem 3rem;
 }
 
 .gymkids img {
